@@ -1,4 +1,4 @@
-alert('Welcome to AutoMart!')
+/* alert('Welcome to AutoMart!') */
 
 var menuList = document.getElementById("menuList")
 

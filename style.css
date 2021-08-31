@@ -151,17 +151,18 @@ body{
     margin: 20px 2px;
     width: 200px;
     border: 0;
-    padding: 12px 10px;
+    padding: 12px 10px 12px;
     outline: none;
     color: white;
     background: linear-gradient(to right, red, orange);
     border-radius: 7px;
     cursor: pointer;
-    transition: width 0.5s;
+    transition: width 0.6s;
 }
 .online button:hover{
     padding-left: 30px;
-    width: 300px;
+    padding: 12px 10px 12px 30px;
+    width: 270px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,10 +175,10 @@ body{
     display: inline-block;
 }
 .online button a{
-    color: rgb(22, 22, 22);
+    color: black;
     text-decoration: none;
 }
-.online button a:hover{
+.online button:hover a{
     color: black;
     width: 300px;
     display: flex;
