@@ -217,9 +217,13 @@ body{
     letter-spacing: 2px;
     margin-left: 460px;
 }
-#finish-button button:hover{
+#finish-button a:hover{
     color: black;
     font-weight: 700;
     text-shadow: none;
+}
+#finish-button a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
 }
 /*ENDS*/
