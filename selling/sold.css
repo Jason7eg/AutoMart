@@ -185,7 +185,7 @@ body{
 }
 .details button{
     float: left;
-    background-color: orange;
+    background: linear-gradient(to right, red, orange);
     color: black;
     border-style: none;
     border-radius: 5px;
@@ -206,7 +206,7 @@ body{
 }
 #finish-button button{
     color: rgb(27, 27, 27);
-    background-color: orange;
+    background: linear-gradient(to right, red, orange);
     border-style: none;
     border-radius: 10px;
     width: 20%;

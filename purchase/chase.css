@@ -14,7 +14,7 @@ body{
 
 /* HEADER STARTS */
 .header{
-   background-color: rgb(90, 90, 189);
+   background: linear-gradient(to right, rgb(90, 90, 189), red);
    color: gray;
    height: 100%;
    box-sizing: border-box;
@@ -94,7 +94,13 @@ body{
    padding-left: 15px;
 }
 .place-2ndrow{
-   
+   font-family: 'Roboto' sans-serif;
+}
+.place-2ndrow p{
+   font-family: 'Roboto' sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   color: black;
 }
 .place-2ndrow select{
    height: 40px;
@@ -179,6 +185,39 @@ body{
    margin-bottom: 50px;
    padding-left: 10px;
 }
+.result{
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+}
+.result input{
+   height: 30px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   border: 0px solid grey;
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px grey;
+   margin-bottom: 50px;
+   margin-right: 50px;
+   padding-left: 15px;
+}
+.result select{
+   height: 30px;
+   width: 170px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   border: 0px solid grey;
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px grey;
+   margin-bottom: 50px;
+   margin-right: 50px;
+   padding-left: 15px;
+}
+.sult{
+   float: left;
+}
 /*ENDS*/
 
 /*FOOTER Starts*/
@@ -188,9 +227,10 @@ footer{
    margin-top: 250px;
 }
 .footer-header{
-   background-color: rgb(97, 97, 97);
+   background-color: rgb(112, 112, 112);
    font-family: 'Roboto', sans-serif;
    height: 300px;
+   margin-top: 500px;
 }
 .head{ /*AM Logo & Purchase... & PhoneNo*/
    float: left;

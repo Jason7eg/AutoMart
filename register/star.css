@@ -14,7 +14,7 @@ body{
 
 /* HEADER STARTS */
 .header{
-    background-color: rgb(90, 90, 189);
+    background: linear-gradient(to right, rgb(90, 90, 189), red);
     color: gray;
     height: 100%;
     box-sizing: border-box;
@@ -174,7 +174,7 @@ margin-bottom: 10px;
 }
 #reg-button button{
     color: rgb(22, 22, 22);
-    background-color: orange;
+    background: linear-gradient(to right, red, orange);
     border-style: none;
     border-radius: 5px;
     width: 60%;
@@ -206,7 +206,7 @@ footer{
     margin-top: 80px;
 }
 .footer-header{
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(112, 112, 112);
     font-family: 'Roboto', sans-serif;
     height: 300px;
 }

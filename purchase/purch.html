@@ -12,7 +12,7 @@
     <div class="container">
         <div class="header">
             <div class="head-img">
-                <a href="../auto.html"><img src="../images/AM-trans.png" alt="AutoMart Logo" width="150"></a> 
+                <a href="../index.html"><img src="../images/AM-trans.png" alt="AutoMart Logo" width="150"></a> 
             </div>
                 <nav id="navbar">
                     <div>
@@ -35,6 +35,7 @@
             <input type="text" name="search" placeholder='Search...' id='search-text-input'>
             <br>
             <div class="place-2ndrow">
+                <p>Filters</p>
                 <select class="price" name="Price">
                     <option value="select">Price</option>
                     <option value="1st option">₦500,000 - ₦750,000</option>
@@ -48,7 +49,6 @@
                     <option value="9th option">₦100,000,000 >>> </option>
                 </select>
                 <select class="make" name="Make">
-                    <!-- <input type="text" name="Make" placeholder="Car Make"> -->
                     <option value="select">Make</option>
                     <option value="acura">Acura</option>
                     <option value="audi">Audi</option>
@@ -130,31 +130,30 @@
                 </select>
             </div>
         </div>
-        <div>
-            <p>Results: <result> </p>
-                <div>
-                    <label>State:</label>
-                    <input type="location" name="state" placeholder='Select State' id='location-text-input'>
-                    <input type="location" name="city" placeholder="Select City" id='location-text-input'>
-                </div>
-                <div>
-                    <label>Sort by:</label>
-                    <select>
-                        <option value="select">Price Low-High</option>
-                        <option value="1st option">Price High-Low</option>
-                        <option value="2nd option">Rating Low-High</option>
-                        <option value="3rd option">Rating High-Low</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Page Size:</label>
-                    <select>
-                        <option value="select">More Filters</option>
-                        <option value="1st option">20</option>
-                        <option value="2nd option">40</option>
-                        <option value="3rd option">80</option>
-                    </select>
-                </div>
+        <div class="result">
+            <div class="sult">
+                <label>State:</label>
+                <input type="location" name="state" placeholder='Select State' id='location-text-input'>
+                <input type="location" name="city" placeholder="Select City" id='location-text-input'>
+            </div>
+            <div class="sult">
+                <label>Sort by:</label>
+                <select>
+                    <option value="select">Price Low - High</option>
+                    <option value="1st option">Price High - Low</option>
+                    <option value="2nd option">Rating Low - High</option>
+                    <option value="3rd option">Rating High - Low</option>
+                </select>
+            </div>
+            <div class="sult">
+                <label>Page Size:</label>
+                <select>
+                    <option value="select">More Filters</option>
+                    <option value="1st option">20</option>
+                    <option value="2nd option">40</option>
+                    <option value="3rd option">80</option>
+                </select>
+            </div>
         </div>
         <div>
             <!-- Carsssssss-->
@@ -165,7 +164,7 @@
     <footer>
         <div class="footer-header">
             <div class="head">
-                <a href="../auto.html"><img src="../images/Auto Logo-trans.png" alt="AutoMart Logo" width="250"></a>
+                <a href="../index.html"><img src="../images/Auto Logo-trans.png" alt="AutoMart Logo" width="250"></a>
         
                 <div class="head-1">
                     <ul>
