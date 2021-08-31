@@ -58,7 +58,7 @@ body{
 }
 .about-car h2{
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: orange;
+    background-color: rgb(90, 90, 189);
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -105,11 +105,9 @@ body{
     border: 0px solid grey;
     box-shadow: 0px 0px 3px;
 }
-
 .car-model{ /*What Model Is It*/
     margin-top: -30px;
 }
-
 .pop-mod p{ /*Popular Models*/
     margin-bottom: -50px;
 }
@@ -142,7 +140,7 @@ body{
 }
 .details h2{
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: orange;
+    background-color: rgb(90, 90, 189);
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -159,7 +157,7 @@ body{
 }
 .details select{
     width: 20%;
-    height: 45px;
+    height: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 400;
@@ -172,7 +170,7 @@ body{
 }
 .details input{
     width: 19%;
-    height: 40px;
+    height: 35px;
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 400;
@@ -199,7 +197,7 @@ body{
     float: left;
     width: 100%;
     margin-left: 30px;
-    margin-right: -920px;
+    margin-right: -960px;
 }
 .mile-gear-location{
     margin-top: -21px;
@@ -209,21 +207,22 @@ body{
     background: linear-gradient(to right, red, orange);
     border-style: none;
     border-radius: 10px;
-    width: 20%;
-    height: 50px;
+    width: 18%;
+    height: 45px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 25px;
     letter-spacing: 2px;
-    margin-left: 460px;
+    margin-left: 450px;
+    padding-bottom: 40px;
+}
+#finish-button a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
 }
 #finish-button a:hover{
     color: black;
     font-weight: 700;
     text-shadow: none;
-}
-#finish-button a{
-    color: rgb(27, 27, 27);
-    text-decoration: none;
 }
 /*ENDS*/
